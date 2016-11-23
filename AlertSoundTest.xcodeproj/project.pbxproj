@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7B5EDF6C1C86A45100C681A8 /* NoRidesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5EDF6A1C86A45100C681A8 /* NoRidesTableViewCell.m */; };
-		7B5EDF6D1C86A45100C681A8 /* NoRidesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B5EDF6B1C86A45100C681A8 /* NoRidesTableViewCell.xib */; };
 		7BBD29521C84783100234FB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBD29511C84783100234FB1 /* AppDelegate.swift */; };
 		7BBD29541C84783100234FB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBD29531C84783100234FB1 /* ViewController.swift */; };
 		7BBD29571C84783100234FB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BBD29551C84783100234FB1 /* Main.storyboard */; };
@@ -37,9 +35,6 @@
 
 /* Begin PBXFileReference section */
 		7B5EDF681C86A45100C681A8 /* AlertSoundTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlertSoundTest-Bridging-Header.h"; sourceTree = "<group>"; };
-		7B5EDF691C86A45100C681A8 /* NoRidesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoRidesTableViewCell.h; sourceTree = "<group>"; };
-		7B5EDF6A1C86A45100C681A8 /* NoRidesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoRidesTableViewCell.m; sourceTree = "<group>"; };
-		7B5EDF6B1C86A45100C681A8 /* NoRidesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoRidesTableViewCell.xib; sourceTree = "<group>"; };
 		7BBD294E1C84783100234FB1 /* AlertSoundTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertSoundTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BBD29511C84783100234FB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BBD29531C84783100234FB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,9 +102,6 @@
 			children = (
 				7BBD29511C84783100234FB1 /* AppDelegate.swift */,
 				7BBD29531C84783100234FB1 /* ViewController.swift */,
-				7B5EDF691C86A45100C681A8 /* NoRidesTableViewCell.h */,
-				7B5EDF6A1C86A45100C681A8 /* NoRidesTableViewCell.m */,
-				7B5EDF6B1C86A45100C681A8 /* NoRidesTableViewCell.xib */,
 				7BBD29551C84783100234FB1 /* Main.storyboard */,
 				7BBD29581C84783200234FB1 /* Assets.xcassets */,
 				7BBD295A1C84783200234FB1 /* LaunchScreen.storyboard */,
@@ -241,7 +233,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B5EDF6D1C86A45100C681A8 /* NoRidesTableViewCell.xib in Resources */,
 				7BBD295C1C84783200234FB1 /* LaunchScreen.storyboard in Resources */,
 				7BBD29591C84783200234FB1 /* Assets.xcassets in Resources */,
 				7BBD29571C84783100234FB1 /* Main.storyboard in Resources */,
@@ -269,7 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B5EDF6C1C86A45100C681A8 /* NoRidesTableViewCell.m in Sources */,
 				7BBD29541C84783100234FB1 /* ViewController.swift in Sources */,
 				7BBD29521C84783100234FB1 /* AppDelegate.swift in Sources */,
 			);
